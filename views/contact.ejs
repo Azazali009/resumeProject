@@ -1,0 +1,61 @@
+<%-include('./partials/header.ejs')%>
+<%-include('./partials/sideBar.ejs',{page_name:'contact'})%> 
+    
+<div class="contact-main">
+    <h3 class="page-title">contact</h3>
+    <hr>
+
+    <div class="contact-box">
+      <p>Do you have any question? Please do not hesitate to contact. I will come back and will answer you.</p>
+        <form class="contact-form">
+           <div class="contact-form-item">
+            <label for="name">Your name *</label>
+            <input type="text" name="name" id="name">
+           </div>
+
+           <div class="contact-form-item">
+            <label for="email">Your Email *</label>
+            <input type="email" name="email" id="email">
+           </div>
+
+           <div class="contact-form-item contact-from-subj">
+            <label for="subject">Your subject *</label>
+            <input type="text"  name="subject" id="subject">
+           </div>
+
+           <div class="contact-form-item contact-from-msg">
+            <label for="message">Your message *</label>
+            <textarea id="message"></textarea>
+           </div>
+           <button class="send-btn">send</button>
+           <div class="icon-box">
+            <a href="#" class="social-icon"><ion-icon  class="icon" name="logo-facebook"></ion-icon></a>
+            <a href="#" class="social-icon"><ion-icon class="icon"  name="logo-instagram"></ion-icon></a>
+            <a href="#" class="social-icon"><ion-icon  class="icon" name="logo-twitter"></ion-icon></a>
+            <a href="#" class="social-icon"><ion-icon class="icon"  name="logo-github"></ion-icon></a>
+           </div>
+        </form>
+        <div class="address">
+            <div class="address-col">
+              <ion-icon class="address-icon" name="location"></ion-icon>
+
+              <a class="address-link" href="#">district, swabi adina</a>
+            </div>
+
+            <div class="address-col">
+              <ion-icon class="address-icon" name="call"></ion-icon>
+
+              <a class="address-link" href="tel:+92 316 3516009">+92 316 3516009</a>
+            </div>
+
+            <div class="address-col">
+              <ion-icon class="address-icon" name="mail"></ion-icon>
+
+              <a class="address-link" href="mailto:aizaz.0938@gmail.com">aizaz.0938@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+ <%-include('./partials/footer.ejs')%>
