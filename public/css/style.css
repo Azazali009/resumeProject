@@ -37,7 +37,6 @@ body {
   height: 20rem;
   border-radius: 50%;
 }
-
 .nav {
   display: flex;
   flex-direction: column;
@@ -371,3 +370,4 @@ body {
   background-color: #fab005;
   color: #343a40 !important;
 }
+
